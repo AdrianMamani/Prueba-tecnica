@@ -19,19 +19,20 @@ Este proyecto es una aplicación frontend desarrollada con Vue 3, enfocada en la
 ## Estrctura del proyecto
 
 src/
-├── assets/ # Imágenes, iconos y recursos estáticos
-├── components/ # Componentes reutilizables (UI, layout, resources)
-├── composables/ # Funciones reutilizables (ej. validaciones)
-├── layout/ # Header, Sidebar y layout principal
-├── modules/ # Módulos por dominio (users, dashboard, profile, etc.)
-│ └── users/
-│ ├── components/
-│ │ ├── modals/
-│ │ └── table/
-│ ├── UsersView.vue
-│ └── UserView.css
-├── router/
-└── main.js
+├── assets/              # Imágenes, iconos y recursos estáticos
+├── components/          # Componentes reutilizables (UI, layout, resources)
+├── composables/         # Funciones reutilizables (ej. validaciones)
+├── layout/              # Header, Sidebar y layout principal
+├── modules/             # Módulos por dominio
+│   ├── users/
+│   │   ├── components/
+│   │   │   ├── modals/
+│   │   │   └── table/
+│   │   ├── UsersView.vue
+│   │   └── UserView.css
+├── router/              # Vue Router
+└── main.js              # Punto de entrada de la app
+
 
 La estructura está organizada por módulos para facilitar el mantenimiento y la escalabilidad.
 
