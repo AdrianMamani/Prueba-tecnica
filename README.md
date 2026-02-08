@@ -1,23 +1,41 @@
-# Gestion de usuarios
+# Gestión de Usuarios
 
-Este proyecto es una aplicación frontend desarrollada con Vue 3, enfocada en la gestión de usuarios. Permite visualizar, crear y administrar usuarios de manera local traendo datos de un API, manteniendo una arquitectura modular y escalable.
+Desarrollado por: **Adrian Sebastian Mamani**
+GitHub: https://github.com/AdrianMamani
+
+Este proyecto es una aplicación **frontend desarrollada con Vue 3**, enfocada en la **gestión de usuarios**.  
+Permite **visualizar, crear y administrar usuarios**, combinando datos obtenidos desde un **API externa** con persistencia local mediante **LocalStorage**.
+
+La aplicación está construida con una **arquitectura modular y escalable**, facilitando el mantenimiento y la ampliación futura del proyecto.
 
 ---
 
-## Tecnologías utilizadas
+## 🚀 Funcionalidades
 
-° Vue 3 (Composition API con <script setup>)
+- Listado de usuarios obtenidos desde una API
+- Creación de nuevos usuarios mediante formulario con validaciones
+- Persistencia de usuarios creados usando LocalStorage
+- Búsqueda de usuarios por nombre o username
+- Paginación de resultados
+- Interfaz responsive
+- Componentes reutilizables y desacoplados
 
-° Vue Router para la navegación
+---
 
-° Tailwind CSS para layout y diseño responsivo
+## 🛠️ Tecnologías utilizadas
 
-° CSS tradicional para estilos específicos
+- **Vue 3** (Composition API con `<script setup>`)
+- **Vue Router** para la navegación
+- **Tailwind CSS** para layout y diseño responsivo
+- **CSS tradicional** para estilos específicos
+- **LocalStorage** para persistencia de datos en frontend
 
-° LocalStorage para persistencia de datos en frontend
+---
 
-## Estrctura del proyecto
+## 📁 Estructura del proyecto
+La estructura está organizada por módulos para facilitar el mantenimiento y la escalabilidad.
 
+```bash
 src/
 ├── assets/              # Imágenes, iconos y recursos estáticos
 ├── components/          # Componentes reutilizables (UI, layout, resources)
@@ -30,11 +48,7 @@ src/
 │   │   │   └── table/
 │   │   ├── UsersView.vue
 │   │   └── UserView.css
-├── router/              # Vue Router
-└── main.js              # Punto de entrada de la app
+├── router/              # Configuración de Vue Router
+└── main.js              # Punto de entrada de la aplicación
 
 
-La estructura está organizada por módulos para facilitar el mantenimiento y la escalabilidad.
-
-Desarrollado por: **Adrian Sebastian Mamani**
-GitHub: https://github.com/AdrianMamani
