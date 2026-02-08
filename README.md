@@ -1,7 +1,6 @@
 # Gestión de Usuarios
 
-Desarrollado por: **Adrian Sebastian Mamani**
-GitHub: https://github.com/AdrianMamani
+Desarrollado por: **Adrian Sebastian Mamani**   // Github:  https://github.com/AdrianMamani
 
 Este proyecto es una aplicación **frontend desarrollada con Vue 3**, enfocada en la **gestión de usuarios**.  
 Permite **visualizar, crear y administrar usuarios**, combinando datos obtenidos desde un **API externa** con persistencia local mediante **LocalStorage**.
