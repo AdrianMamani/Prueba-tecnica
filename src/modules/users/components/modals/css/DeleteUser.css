@@ -1,0 +1,59 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-box {
+  background: white;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.icon-wrapper {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #fee2e2; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper i {
+  font-size: 28px;
+  color: #dc2626; 
+}
+
+.btn-cancel {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: white;
+  color: #374151;
+  font-weight: 500;
+}
+
+.btn-cancel:hover {
+  background: #f3f4f6;
+}
+
+.btn-delete {
+  padding: 8px 18px;
+  border-radius: 6px;
+  background: #dc2626;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-delete:hover {
+  background: #b91c1c;
+}
